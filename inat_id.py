@@ -1,7 +1,12 @@
 # This script contains iNat identificator class that takes care of identifying insects using the iNaturalist model
 
+# ICVT modules
+from ..utility import utils
+
+# External packages
 import requests
-from modules.utility import utils
+
+# Part of python
 import json
 
 class InatObservation():
